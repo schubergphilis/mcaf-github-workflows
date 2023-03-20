@@ -24,6 +24,8 @@ jobs:
 
       - name: Setup Terraform Linters
         uses: terraform-linters/setup-tflint@v2
+        with:
+          github_token: ${{ github.token }}        
 
       - name: Terraform Format
         id: fmt
@@ -107,10 +109,10 @@ jobs:
         with:
           args: --sort-by required
           git-commit-message: 'docs(readme): update module usage'
-          git-push: true
+          git-push: ${{ inputs.docs-git-push }}
           output-file: README.md
           output-method: inject
-          working-dir: .
+          working-dir: ${{ inputs.docs-directory }}
         continue-on-error: true # added this to prevent a PR from a remote fork failing the workflow
 
   tfsec:
