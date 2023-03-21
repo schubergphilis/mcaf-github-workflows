@@ -1,5 +1,11 @@
 on:
   workflow_call:
+    inputs:
+      release-drafter-config-name:
+        description: "Release drafter config name to use, relative to .github/."
+        default: release-drafter-config.yml
+        required: false
+        type: string
 
 jobs:
   draft:
@@ -9,6 +15,6 @@ jobs:
         with:
           publish: false
           prerelease: false
-          config-name: release-drafter-config.yml
+          config-name: ${{ inputs.release-drafter-config-name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
