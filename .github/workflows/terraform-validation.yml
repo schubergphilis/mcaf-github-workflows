@@ -145,7 +145,7 @@ jobs:
         with:
           container_user: 1000
           directory: "/"
-          download_external_modules: true
+          download_external_modules: false
           framework: terraform
           output_format: sarif
           quiet: true
