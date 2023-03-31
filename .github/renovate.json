@@ -11,8 +11,6 @@
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "to {{newVersion}}",
   "commitMessageSuffix": "",
-  
-  // Renovate managers
   "github-actions": {
     "fileMatch": [
       "^(repo-sync-root/\\.github/workflows|\\.github/workflows)/[^/]+\\.ya?ml$"
@@ -21,8 +19,6 @@
   "pre-commit": {
     "enabled": true
   },
-
-  // Group CheckOV updates together
   "packageRules": [
     {
       "groupName": "CheckOV",
