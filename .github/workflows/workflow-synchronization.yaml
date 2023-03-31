@@ -11,8 +11,8 @@ env:
     schubergphilis/terraform-aws-mcaf-transit-gateway
   
   WORKFLOW_FILES: |
-    sync-root/.github/labels.yml=.github/labels.yml
-    sync-root/.github/release-drafter-config.yml=.github/release-drafter-config.yml
+    sync-root/.github/labels.yaml=.github/labels.yaml
+    sync-root/.github/release-drafter-config.yaml=.github/release-drafter-config.yaml
     sync-root/.github/workflows=.github
     sync-root/.pre-commit-config.yaml=.pre-commit-config.yaml
     sync-root/CONTRIBUTING.md=CONTRIBUTING.md

@@ -24,6 +24,6 @@ jobs:
         with:
           publish: false
           prerelease: false
-          config-name: release-drafter-config.yml
+          config-name: release-drafter-config.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
