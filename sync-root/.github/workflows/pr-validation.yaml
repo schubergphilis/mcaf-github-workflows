@@ -1,5 +1,16 @@
+name: "pr-validation"
+
 on:
-  workflow_call:
+  pull_request:
+
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   autolabeler:
@@ -7,7 +18,7 @@ jobs:
     steps:
       - uses: release-drafter/release-drafter@v5
         with:
-          config-name: release-drafter-config.yml
+          config-name: release-drafter-config.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
