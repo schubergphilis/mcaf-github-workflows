@@ -13,7 +13,7 @@
   "commitMessageSuffix": "",
   "github-actions": {
     "fileMatch": [
-      "^(repo-sync-root/\\.github/workflows|\\.github/workflows)/[^/]+\\.ya?ml$"
+      "^(sync-root/\\.github/workflows|\\.github/workflows)/[^/]+\\.ya?ml$"
     ]
   },
   "pre-commit": {
