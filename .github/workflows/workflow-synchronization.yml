@@ -1,0 +1,34 @@
+name: workflow-synchronization
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+env:
+  REPOSITORIES: |
+    schubergphilis/terraform-aws-mcaf-transit-gateway
+  
+  WORKFLOW_FILES: |
+    repo-sync-root/.github/labels.yml=.github/labels.yml
+    repo-sync-root/.github/release-drafter-config.yml=.github/release-drafter-config.yml
+    repo-sync-root/.github/workflows=.github
+    repo-sync-root/.pre-commit-config.yaml=.pre-commit-config.yaml
+    repo-sync-root/CONTRIBUTING.md=CONTRIBUTING.md
+    repo-sync-root/LICENSE=LICENSE
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Synchronize files
+        uses: varunsridharan/action-github-workflow-sync@3.3
+        with:
+          REPOSITORIES: ${{ env.REPOSITORIES }}
+          WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
+          COMMIT_MESSAGE: '[SYNC] mcaf-github-workflows'
+          GITHUB_TOKEN: ${{ secrets.MCAF_WORKFLOW_SYNCHRONIZATION }}

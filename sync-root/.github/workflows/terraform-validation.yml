@@ -1,16 +1,14 @@
+name: "terraform"
+
 on:
-  workflow_call:
-    inputs:
-      docs-directory:
-        description: "Comma separated list of directories to generate docs for"
-        default: .
-        required: false
-        type: string
-      docs-git-push:
-        description: "If true it will commit and push the changes"
-        default: true
-        required: false
-        type: string  
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   fmt-lint-validate:
@@ -109,10 +107,10 @@ jobs:
         with:
           args: --sort-by required
           git-commit-message: 'docs(readme): update module usage'
-          git-push: ${{ inputs.docs-git-push }}
+          git-push: true
           output-file: README.md
           output-method: inject
-          working-dir: ${{ inputs.docs-directory }}
+          working-dir: .
         continue-on-error: true # added this to prevent a PR from a remote fork failing the workflow
 
   tfsec:
@@ -141,7 +139,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Checkov
-        uses: bridgecrewio/checkov-action@v12.2150.0 # checkov-action v12.2150.0 == checkov 2.3.34 - Keep this config in sync with .pre-commit-config.yaml
+        uses: bridgecrewio/checkov-action@v12.2150.0
         with:
           container_user: 1000
           directory: "/"

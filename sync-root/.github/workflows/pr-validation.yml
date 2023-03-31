@@ -1,5 +1,16 @@
+name: "pr-validation"
+
 on:
-  workflow_call:
+  pull_request:
+
+permissions:
+      checks: write
+      contents: read
+      pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   autolabeler:
