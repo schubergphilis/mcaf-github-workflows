@@ -9,7 +9,9 @@ on:
 
 env:
   REPOSITORIES: |
+    schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-transit-gateway
+    schubergphilis/terraform-aws-mcaf-user
   
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
