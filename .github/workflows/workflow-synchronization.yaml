@@ -9,7 +9,11 @@ on:
 
 env:
   REPOSITORIES: |
+    schubergphilis/terraform-aws-mcaf-account-baseline
     schubergphilis/terraform-aws-mcaf-aurora
+    schubergphilis/terraform-aws-mcaf-avm
+    schubergphilis/terraform-aws-mcaf-landing-zone
+    schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
   
