@@ -18,7 +18,8 @@ env:
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
-  
+    schubergphilis/terraform-github-mcaf-repository
+
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
     sync-root/.github/release-drafter-config.yaml=.github/release-drafter-config.yaml
@@ -39,5 +40,5 @@ jobs:
         with:
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
-          COMMIT_MESSAGE: '[SYNC] mcaf-github-workflows'
+          COMMIT_MESSAGE: "[SYNC] mcaf-github-workflows"
           GITHUB_TOKEN: ${{ secrets.MCAF_WORKFLOW_SYNCHRONIZATION }}
