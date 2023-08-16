@@ -20,6 +20,7 @@ env:
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
     schubergphilis/terraform-github-mcaf-repository
+    schubergphilis/terraform-gitlab-mcaf-project
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
