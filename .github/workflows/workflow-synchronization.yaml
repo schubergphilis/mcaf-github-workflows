@@ -15,6 +15,7 @@ env:
     schubergphilis/terraform-aws-mcaf-dynamodb
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-landing-zone
+    schubergphilis/terraform-aws-mcaf-network-firewall
     schubergphilis/terraform-aws-mcaf-s3
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
