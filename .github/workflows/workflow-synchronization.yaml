@@ -16,11 +16,13 @@ env:
     schubergphilis/terraform-aws-mcaf-ecr
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-landing-zone
+    schubergphilis/terraform-aws-mcaf-network-firewall
     schubergphilis/terraform-aws-mcaf-s3
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
     schubergphilis/terraform-github-mcaf-repository
+    schubergphilis/terraform-gitlab-mcaf-project
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
@@ -35,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Synchronize files
         uses: varunsridharan/action-github-workflow-sync@3.3
