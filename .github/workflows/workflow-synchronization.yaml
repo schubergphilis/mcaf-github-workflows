@@ -12,8 +12,8 @@ env:
     schubergphilis/terraform-aws-mcaf-account-baseline
     schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-avm
-    schubergphilis/terraform-aws-mcaf-budgets
-    schubergphilis/terraform-aws-mcaf-cur-report
+    schubergphilis/terraform-aws-mcaf-budget
+    schubergphilis/terraform-aws-mcaf-cost-and-usage-reports
     schubergphilis/terraform-aws-mcaf-dynamodb
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-lambda
