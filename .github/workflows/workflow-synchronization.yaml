@@ -15,6 +15,7 @@ env:
     schubergphilis/terraform-aws-mcaf-budget
     schubergphilis/terraform-aws-mcaf-cost-and-usage-reports
     schubergphilis/terraform-aws-mcaf-dynamodb
+    schubergphilis/terraform-aws-mcaf-ecr
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
