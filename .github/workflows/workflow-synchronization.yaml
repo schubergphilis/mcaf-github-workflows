@@ -28,6 +28,7 @@ env:
     schubergphilis/terraform-aws-mcaf-user
     schubergphilis/terraform-aws-mcaf-workspace
     schubergphilis/terraform-github-mcaf-repository
+    schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
 
   WORKFLOW_FILES: |
