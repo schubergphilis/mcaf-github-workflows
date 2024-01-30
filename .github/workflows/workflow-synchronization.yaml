@@ -30,6 +30,7 @@ env:
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
+    schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
