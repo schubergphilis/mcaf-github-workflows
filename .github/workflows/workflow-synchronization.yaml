@@ -10,6 +10,7 @@ on:
 env:
   REPOSITORIES: |
     schubergphilis/terraform-aws-mcaf-account-baseline
+    schubergphilis/terraform-aws-mcaf-audit-logs
     schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-avm
     schubergphilis/terraform-aws-mcaf-budget
