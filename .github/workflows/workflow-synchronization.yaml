@@ -22,6 +22,7 @@ env:
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
     schubergphilis/terraform-aws-mcaf-network-firewall
+    schubergphilis/terraform-aws-mcaf-role
     schubergphilis/terraform-aws-mcaf-s3
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-service-quotas-manager
