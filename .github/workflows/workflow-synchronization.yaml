@@ -18,6 +18,7 @@ env:
     schubergphilis/terraform-aws-mcaf-datadog
     schubergphilis/terraform-aws-mcaf-dynamodb
     schubergphilis/terraform-aws-mcaf-ecr
+    schubergphilis/terraform-aws-mcaf-gitlab-oidc
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
