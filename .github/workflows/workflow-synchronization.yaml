@@ -30,6 +30,8 @@ env:
     schubergphilis/terraform-aws-mcaf-service-quotas-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
+    schubergphilis/terraform-aws-mcaf-vpc-ipam
+    schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
