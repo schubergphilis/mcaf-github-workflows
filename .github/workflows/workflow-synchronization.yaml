@@ -20,6 +20,7 @@ env:
     schubergphilis/terraform-aws-mcaf-ecr
     schubergphilis/terraform-aws-mcaf-gitlab-oidc
     schubergphilis/terraform-aws-mcaf-glue-connector
+    schubergphilis/terraform-aws-mcaf-glue-job
     schubergphilis/terraform-aws-mcaf-ipam
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
