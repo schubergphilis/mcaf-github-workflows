@@ -14,6 +14,7 @@ env:
     schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-avm
     schubergphilis/terraform-aws-mcaf-budget
+    schubergphilis/terraform-aws-mcaf-clientvpn
     schubergphilis/terraform-aws-mcaf-cost-and-usage-reports
     schubergphilis/terraform-aws-mcaf-datadog
     schubergphilis/terraform-aws-mcaf-dynamodb
@@ -38,6 +39,7 @@ env:
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
+    schubergphilis/terraform-opsgenie-mcaf-schedule
     schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
