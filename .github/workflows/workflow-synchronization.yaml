@@ -28,6 +28,7 @@ env:
     schubergphilis/terraform-aws-mcaf-redshift
     schubergphilis/terraform-aws-mcaf-role
     schubergphilis/terraform-aws-mcaf-s3
+    schubergphilis/terraform-aws-mcaf-saas-audit-logs
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-service-quotas-manager
     schubergphilis/terraform-aws-mcaf-transit-gateway
