@@ -39,6 +39,7 @@ env:
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
+    schubergphilis/terraform-opsgenie-mcaf-schedule
     schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
