@@ -25,6 +25,7 @@ env:
     schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-glue-job
     schubergphilis/terraform-aws-mcaf-ipam
+    schubergphilis/terraform-aws-mcaf-kms
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
     schubergphilis/terraform-aws-mcaf-network-firewall
