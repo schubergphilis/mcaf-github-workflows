@@ -44,6 +44,7 @@ env:
     schubergphilis/terraform-gitlab-mcaf-project
     schubergphilis/terraform-opsgenie-mcaf-schedule
     schubergphilis/terraform-tfe-mcaf-workspace
+    schubergphilis/terraform-aws-mcaf-energy-labeler
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
