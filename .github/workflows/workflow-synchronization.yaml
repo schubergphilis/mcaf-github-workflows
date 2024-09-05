@@ -29,6 +29,7 @@ env:
     schubergphilis/terraform-aws-mcaf-kms
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
+    schubergphilis/terraform-aws-mcaf-managed-grafana
     schubergphilis/terraform-aws-mcaf-network-firewall
     schubergphilis/terraform-aws-mcaf-redshift
     schubergphilis/terraform-aws-mcaf-role
@@ -37,6 +38,7 @@ env:
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
     schubergphilis/terraform-aws-mcaf-service-quotas-manager
     schubergphilis/terraform-aws-mcaf-ses
+    schubergphilis/terraform-aws-mcaf-ses-forwarder
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
