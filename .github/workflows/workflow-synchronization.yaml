@@ -41,6 +41,7 @@ env:
     schubergphilis/terraform-aws-mcaf-ses-forwarder
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
+    schubergphilis/terraform-aws-mcaf-vpc
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
     schubergphilis/terraform-github-mcaf-repository
