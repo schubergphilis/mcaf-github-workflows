@@ -45,13 +45,13 @@ env:
     schubergphilis/terraform-aws-mcaf-vpc
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
+    schubergphilis/terraform-azure-mcaf-naming
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
     schubergphilis/terraform-opsgenie-mcaf-schedule
     schubergphilis/terraform-tfe-mcaf-workspace
-    schubergphilis/terraform-azure-mcaf-naming
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
