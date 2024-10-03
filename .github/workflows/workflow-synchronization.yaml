@@ -46,6 +46,7 @@ env:
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
     schubergphilis/terraform-azure-mcaf-naming
+    schubergphilis/terraform-azure-mcaf-subscription-management
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
