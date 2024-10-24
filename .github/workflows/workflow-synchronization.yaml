@@ -10,20 +10,53 @@ on:
 env:
   REPOSITORIES: |
     schubergphilis/terraform-aws-mcaf-account-baseline
+    schubergphilis/terraform-aws-mcaf-audit-logs
     schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-avm
+    schubergphilis/terraform-aws-mcaf-budget
+    schubergphilis/terraform-aws-mcaf-certificate
+    schubergphilis/terraform-aws-mcaf-clientvpn
+    schubergphilis/terraform-aws-mcaf-cost-and-usage-reports
+    schubergphilis/terraform-aws-mcaf-datadog
     schubergphilis/terraform-aws-mcaf-dynamodb
+    schubergphilis/terraform-aws-mcaf-ecr
+    schubergphilis/terraform-aws-mcaf-energy-labeler
+    schubergphilis/terraform-aws-mcaf-fargate
+    schubergphilis/terraform-aws-mcaf-gitlab-oidc
     schubergphilis/terraform-aws-mcaf-glue-connector
+    schubergphilis/terraform-aws-mcaf-glue-job
+    schubergphilis/terraform-aws-mcaf-ipam
+    schubergphilis/terraform-aws-mcaf-kms
     schubergphilis/terraform-aws-mcaf-lambda
     schubergphilis/terraform-aws-mcaf-landing-zone
+    schubergphilis/terraform-aws-mcaf-managed-grafana
     schubergphilis/terraform-aws-mcaf-network-firewall
+    schubergphilis/terraform-aws-mcaf-redshift
+    schubergphilis/terraform-aws-mcaf-resource-scheduler
+    schubergphilis/terraform-aws-mcaf-role
     schubergphilis/terraform-aws-mcaf-s3
+    schubergphilis/terraform-aws-mcaf-saas-audit-logs
     schubergphilis/terraform-aws-mcaf-securityhub-findings-manager
+    schubergphilis/terraform-aws-mcaf-service-quotas-manager
+    schubergphilis/terraform-aws-mcaf-ses
+    schubergphilis/terraform-aws-mcaf-ses-forwarder
     schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
+    schubergphilis/terraform-aws-mcaf-vpc
+    schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
+    schubergphilis/terraform-azure-mcaf-key-vault
+    schubergphilis/terraform-azure-mcaf-naming
+    schubergphilis/terraform-azure-mcaf-network
+    schubergphilis/terraform-azure-mcaf-svm-csp
+    schubergphilis/terraform-azure-mcaf-svm-ea
+    schubergphilis/terraform-azure-mcaf-private-endpoints
+    schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
+    schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
+    schubergphilis/terraform-opsgenie-mcaf-schedule
+    schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
     sync-root/.github/labels.yaml=.github/labels.yaml
