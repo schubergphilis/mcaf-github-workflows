@@ -74,7 +74,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Synchronize files
-        uses: varunsridharan/action-github-workflow-sync@3.3
+        uses: varunsridharan/action-github-workflow-sync@3.4
         with:
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
