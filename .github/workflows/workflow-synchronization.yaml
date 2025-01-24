@@ -75,6 +75,11 @@ env:
     schubergphilis/terraform-azure-mcaf-private-dns-zones
     schubergphilis/terraform-azure-mcaf-azdo-buildagent-aci
     schubergphilis/terraform-azure-mcaf-vwan-s2
+    schubergphilis/terraform-azure-ep-workload-onboarding
+    schubergphilis/terraform-azure-ep-security-center
+    schubergphilis/terraform-azure-ep-organisation-management
+    schubergphilis/terraform-azure-ep-entitlement-management
+    schubergphilis/terraform-azure-ep-team-onboarding
     #schubergphilis/terraform-gitlab-mcaf-group
     #schubergphilis/terraform-gitlab-mcaf-project
     #schubergphilis/terraform-opsgenie-mcaf-schedule
