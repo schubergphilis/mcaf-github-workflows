@@ -31,6 +31,7 @@ env:
     schubergphilis/terraform-aws-mcaf-landing-zone
     schubergphilis/terraform-aws-mcaf-managed-grafana
     schubergphilis/terraform-aws-mcaf-network-firewall
+    schubergphilis/terraform-aws-mcaf-oam
     schubergphilis/terraform-aws-mcaf-redshift
     schubergphilis/terraform-aws-mcaf-resource-scheduler
     schubergphilis/terraform-aws-mcaf-role
@@ -48,9 +49,9 @@ env:
     schubergphilis/terraform-azure-mcaf-key-vault
     schubergphilis/terraform-azure-mcaf-naming
     schubergphilis/terraform-azure-mcaf-network
+    schubergphilis/terraform-azure-mcaf-private-endpoints
     schubergphilis/terraform-azure-mcaf-svm-csp
     schubergphilis/terraform-azure-mcaf-svm-ea
-    schubergphilis/terraform-azure-mcaf-private-endpoints
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-group
