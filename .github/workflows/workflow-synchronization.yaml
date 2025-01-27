@@ -89,7 +89,8 @@ env:
     #sync-root/.github/labels.yaml=.github/labels.yaml
     #sync-root/.github/release-drafter-config.yaml=.github/release-drafter-config.yaml
     #sync-root/.github/workflows=.github
-    sync-root/.github/ISSUE_TEMPLATE=.github
+    #sync-root/.github/ISSUE_TEMPLATE=.github
+    sync-root/.github/PULL_REQUEST_TEMPLATE=.github
     #sync-root/.pre-commit-config.yaml=.pre-commit-config.yaml
     #sync-root/CONTRIBUTING.md=CONTRIBUTING.md
     #sync-root/LICENSE=LICENSE
