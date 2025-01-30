@@ -90,7 +90,7 @@ env:
     #sync-root/.github/release-drafter-config.yaml=.github/release-drafter-config.yaml
     #sync-root/.github/workflows=.github
     #sync-root/.github/ISSUE_TEMPLATE=.github
-    sync-root/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md=.github
+    sync-root/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md=.github/pull_request_template.md
     #sync-root/.gitignore=.gitignore
     #sync-root/CONTRIBUTING.md=CONTRIBUTING.md
     #sync-root/LICENSE=LICENSE
