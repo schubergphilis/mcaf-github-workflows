@@ -32,6 +32,7 @@ env:
     schubergphilis/terraform-aws-mcaf-managed-grafana
     schubergphilis/terraform-aws-mcaf-network-firewall
     schubergphilis/terraform-aws-mcaf-oam
+    schubergphilis/terraform-aws-mcaf-organization
     schubergphilis/terraform-aws-mcaf-redshift
     schubergphilis/terraform-aws-mcaf-resource-scheduler
     schubergphilis/terraform-aws-mcaf-role
