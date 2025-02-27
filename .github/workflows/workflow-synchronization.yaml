@@ -51,6 +51,7 @@ env:
     schubergphilis/terraform-azure-mcaf-key-vault
     schubergphilis/terraform-azure-mcaf-naming
     schubergphilis/terraform-azure-mcaf-network
+    schubergphilis/terraform-azure-mcaf-openai
     schubergphilis/terraform-azure-mcaf-private-endpoints
     schubergphilis/terraform-azure-mcaf-svm-csp
     schubergphilis/terraform-azure-mcaf-svm-ea
@@ -81,5 +82,5 @@ jobs:
         with:
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
-          COMMIT_MESSAGE: "[SYNC] mcaf-github-workflows"
+          COMMIT_MESSAGE: '[SYNC] mcaf-github-workflows'
           GITHUB_TOKEN: ${{ secrets.MCAF_WORKFLOW_SYNCHRONIZATION }}
