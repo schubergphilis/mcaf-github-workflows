@@ -22,8 +22,6 @@ env:
     schubergphilis/terraform-aws-mcaf-ecr
     schubergphilis/terraform-aws-mcaf-energy-labeler
     schubergphilis/terraform-aws-mcaf-fargate
-    schubergphilis/terraform-aws-mcaf-gitlab-oidc
-    schubergphilis/terraform-aws-mcaf-glue-connector
     schubergphilis/terraform-aws-mcaf-glue-job
     schubergphilis/terraform-aws-mcaf-ipam
     schubergphilis/terraform-aws-mcaf-kms
@@ -58,9 +56,7 @@ env:
     schubergphilis/terraform-azure-mcaf-svm-ea
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
-    schubergphilis/terraform-gitlab-mcaf-group
     schubergphilis/terraform-gitlab-mcaf-project
-    schubergphilis/terraform-opsgenie-mcaf-schedule
     schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
