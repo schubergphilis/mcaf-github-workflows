@@ -10,7 +10,6 @@ on:
 env:
   REPOSITORIES: |
     schubergphilis/terraform-aws-mcaf-account-baseline
-    schubergphilis/terraform-aws-mcaf-audit-logs
     schubergphilis/terraform-aws-mcaf-aurora
     schubergphilis/terraform-aws-mcaf-avm
     schubergphilis/terraform-aws-mcaf-budget
@@ -52,8 +51,6 @@ env:
     schubergphilis/terraform-azure-mcaf-network
     schubergphilis/terraform-azure-mcaf-openai
     schubergphilis/terraform-azure-mcaf-private-endpoints
-    schubergphilis/terraform-azure-mcaf-svm-csp
-    schubergphilis/terraform-azure-mcaf-svm-ea
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-project
