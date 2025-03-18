@@ -22,7 +22,7 @@ Enter detailed steps to reproduce here. More detail is better.
 **🚧 Workaround**
 If there is a way to work around the problem, place that information here.
 
-**:computer: Environment**
+**💻 Environment**
 Anything that will help triage the bug will help. For example:
  - Terraform version
  - Module version
