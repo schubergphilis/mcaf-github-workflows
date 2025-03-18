@@ -47,12 +47,44 @@ env:
     schubergphilis/terraform-aws-mcaf-vpc
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
     schubergphilis/terraform-aws-mcaf-workspace
+    schubergphilis/terraform-azure-ep-entitlement-management
+    schubergphilis/terraform-azure-ep-organisation-management
+    schubergphilis/terraform-azure-ep-security-center
+    schubergphilis/terraform-azure-ep-team-onboarding
+    schubergphilis/terraform-azure-ep-workload-onboarding
     schubergphilis/terraform-azure-mcaf-ai-container-app-workload
+    schubergphilis/terraform-azure-mcaf-azdo-buildagent-aci
+    schubergphilis/terraform-azure-mcaf-bastion
+    schubergphilis/terraform-azure-mcaf-bckp
+    schubergphilis/terraform-azure-mcaf-bootstrap
+    schubergphilis/terraform-azure-mcaf-container-group
+    schubergphilis/terraform-azure-mcaf-container-registry
+    schubergphilis/terraform-azure-mcaf-core
+    schubergphilis/terraform-azure-mcaf-diskencryptionset
+    schubergphilis/terraform-azure-mcaf-eventhub
+    schubergphilis/terraform-azure-mcaf-functionapp
+    schubergphilis/terraform-azure-mcaf-ipgroups
     schubergphilis/terraform-azure-mcaf-key-vault
+    schubergphilis/terraform-azure-mcaf-monitoring
     schubergphilis/terraform-azure-mcaf-naming
+    schubergphilis/terraform-azure-mcaf-netbox-integration
     schubergphilis/terraform-azure-mcaf-network
     schubergphilis/terraform-azure-mcaf-openai
+    schubergphilis/terraform-azure-mcaf-pdnsresolver
+    schubergphilis/terraform-azure-mcaf-policies
+    schubergphilis/terraform-azure-mcaf-policy-exemptions
+    schubergphilis/terraform-azure-mcaf-private-dns-zones
     schubergphilis/terraform-azure-mcaf-private-endpoints
+    schubergphilis/terraform-azure-mcaf-storage-account
+    schubergphilis/terraform-azure-mcaf-svm
+    schubergphilis/terraform-azure-mcaf-svm-csp
+    schubergphilis/terraform-azure-mcaf-svm-ea
+    schubergphilis/terraform-azure-mcaf-vhub
+    schubergphilis/terraform-azure-mcaf-virtualmachine
+    schubergphilis/terraform-azure-mcaf-vwan
+    schubergphilis/terraform-azure-mcaf-vwan-expressroute
+    schubergphilis/terraform-azure-mcaf-vwan-s2
+    schubergphilis/terraform-azure-mcaf-vwan-vnetlinks
     schubergphilis/terraform-datadog-mcaf-monitor
     schubergphilis/terraform-github-mcaf-repository
     schubergphilis/terraform-gitlab-mcaf-project
@@ -60,12 +92,16 @@ env:
     schubergphilis/terraform-tfe-mcaf-workspace
 
   WORKFLOW_FILES: |
+    sync-root/.github/ISSUE_TEMPLATE=.github
     sync-root/.github/labels.yaml=.github/labels.yaml
+    sync-root/.github/pull_request_template.md=.github/pull_request_template.md
     sync-root/.github/release-drafter-config.yaml=.github/release-drafter-config.yaml
     sync-root/.github/workflows=.github
+    sync-root/.gitignore=.gitignore
     sync-root/.pre-commit-config.yaml=.pre-commit-config.yaml
     sync-root/CONTRIBUTING.md=CONTRIBUTING.md
     sync-root/LICENSE=LICENSE
+
 
 jobs:
   build:
