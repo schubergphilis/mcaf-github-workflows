@@ -57,6 +57,7 @@ env:
     schubergphilis/terraform-azure-mcaf-bastion
     schubergphilis/terraform-azure-mcaf-bckp
     schubergphilis/terraform-azure-mcaf-bootstrap
+    schubergphilis/terraform-azure-mcaf-container-app-environment
     schubergphilis/terraform-azure-mcaf-container-group
     schubergphilis/terraform-azure-mcaf-container-registry
     schubergphilis/terraform-azure-mcaf-core
