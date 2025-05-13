@@ -15,6 +15,7 @@ env:
     schubergphilis/terraform-aws-mcaf-budget
     schubergphilis/terraform-aws-mcaf-certificate
     schubergphilis/terraform-aws-mcaf-clientvpn
+    schubergphilis/terraform-aws-mcaf-cloudfront
     schubergphilis/terraform-aws-mcaf-cost-and-usage-reports
     schubergphilis/terraform-aws-mcaf-datadog
     schubergphilis/terraform-aws-mcaf-dynamodb
