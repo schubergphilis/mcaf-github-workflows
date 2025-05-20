@@ -63,6 +63,7 @@ env:
     schubergphilis/terraform-azure-mcaf-container-registry
     schubergphilis/terraform-azure-mcaf-core
     schubergphilis/terraform-azure-mcaf-diskencryptionset
+    schubergphilis/terraform-azure-mcaf-document-intelligence
     schubergphilis/terraform-azure-mcaf-eventhub
     schubergphilis/terraform-azure-mcaf-functionapp
     schubergphilis/terraform-azure-mcaf-ipgroups
