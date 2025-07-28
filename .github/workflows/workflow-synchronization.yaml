@@ -35,7 +35,7 @@ env:
     schubergphilis/terraform-aws-mcaf-redshift
     schubergphilis/terraform-aws-mcaf-resource-scheduler
     schubergphilis/terraform-aws-mcaf-role
-    schubergphilis/terraform-aws-mcaf-route53-profile-sharing
+    schubergphilis/terraform-aws-mcaf-route53-profiles
     schubergphilis/terraform-aws-mcaf-route53-resolver
     schubergphilis/terraform-aws-mcaf-s3
     schubergphilis/terraform-aws-mcaf-saas-audit-logs
