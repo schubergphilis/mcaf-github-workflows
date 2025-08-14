@@ -64,6 +64,7 @@ env:
     schubergphilis/terraform-azure-mcaf-container-group
     schubergphilis/terraform-azure-mcaf-container-registry
     schubergphilis/terraform-azure-mcaf-core
+    schubergphilis/terraform-azure-mcaf-devops-branchprotection
     schubergphilis/terraform-azure-mcaf-diskencryptionset
     schubergphilis/terraform-azure-mcaf-eventhub
     schubergphilis/terraform-azure-mcaf-functionapp
