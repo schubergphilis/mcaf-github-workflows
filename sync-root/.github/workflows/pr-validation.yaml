@@ -82,7 +82,7 @@ jobs:
     needs: autolabeler
     runs-on: ubuntu-latest
     steps:
-      - uses: docker://agilepathway/pull-request-label-checker:v1.6.55
+      - uses: docker://agilepathway/pull-request-label-checker:v1.6.65
         id: lint_pr_labels
         with:
           any_of: breaking,bug,chore,documentation,enhancement,feature,fix,security
