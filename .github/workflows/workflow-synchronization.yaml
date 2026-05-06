@@ -46,8 +46,8 @@ env:
     schubergphilis/terraform-aws-mcaf-service-quotas-manager
     schubergphilis/terraform-aws-mcaf-ses
     schubergphilis/terraform-aws-mcaf-ses-forwarder
-    schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-transfer
+    schubergphilis/terraform-aws-mcaf-transit-gateway
     schubergphilis/terraform-aws-mcaf-user
     schubergphilis/terraform-aws-mcaf-vpc
     schubergphilis/terraform-aws-mcaf-vpc-with-ipam
@@ -67,6 +67,7 @@ env:
     schubergphilis/terraform-azure-mcaf-container-registry
     schubergphilis/terraform-azure-mcaf-core
     schubergphilis/terraform-azure-mcaf-diskencryptionset
+    schubergphilis/terraform-azure-mcaf-dns-zones
     schubergphilis/terraform-azure-mcaf-eventhub
     schubergphilis/terraform-azure-mcaf-functionapp
     schubergphilis/terraform-azure-mcaf-ipgroups
@@ -108,7 +109,6 @@ env:
     sync-root/CONTRIBUTING.md=CONTRIBUTING.md
     sync-root/LICENSE=LICENSE
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -121,5 +121,5 @@ jobs:
         with:
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
-          COMMIT_MESSAGE: '[SYNC] mcaf-github-workflows'
+          COMMIT_MESSAGE: "[SYNC] mcaf-github-workflows"
           GITHUB_TOKEN: ${{ secrets.MCAF_WORKFLOW_SYNCHRONIZATION }}
